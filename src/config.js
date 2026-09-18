@@ -36,7 +36,7 @@ export const SECRET_ROOM = {
 // 촛불 개수. 9개 이하는 정해둔 자리에, 그보다 많으면 케이크 윗면에 고르게 깔립니다.
 export const CANDLE_COUNT = 28
 // "후~" 한 번에 꺼지는 촛불 개수 (최소~최대 사이에서 랜덤)
-export const CANDLES_PER_BLOW = { min: 2, max: 5 }
+export const CANDLES_PER_BLOW = { min: 3, max: 5 }
 
 // STEP 4. 생일 축하 노래
 // public/music/happy-birthday.mp3 파일을 넣으면 그 파일을 재생합니다.
